@@ -1,0 +1,59 @@
+@font-face 
+{
+    font-family: 'NerisBlack';
+    src: url('Neris-Black-webfont.woff'),
+		 url('Neris-Black-webfont.ttf'),
+		 url('Neris-Black-webfont.eot'),
+		 url('Neris-Black-webfont.svg');
+		 
+}
+
+@font-face 
+{
+    font-family: 'PassionOneRegular';
+    src: url('PassionOne-Regular.otf');
+}
+
+body
+{
+	background-color: #2C4055; /* Le fond de la page sera noir */
+	color: #FFFFFF; /* Le texte de la page sera blanc */
+}
+
+.connect
+{
+	position: ABSOLUTE;
+	bottom: 1px;
+	left: -1px;
+	right: 0px;
+	background-color: #3BA47D;
+	width: 50.9%;
+	height: 75px;
+	overflow: hidden;
+	font-family: Impact;
+	color: #F4F4F4;
+	font-size: 29px;
+	text-align: center;
+	border-bottom: 5px solid #00FF99;
+	font-weight: lighter;
+	line-height: 75px;
+}
+
+.inscription
+{
+	position: ABSOLUTE;
+	bottom: 0px;
+	left: 261px;
+	right: 0px;
+	background-color: #3BA47D;
+	width: 50.9%;
+	height: 75px;
+	overflow: hidden;
+	font-family: Impact;
+	color: #F4F4F4;
+	font-size: 29px;
+	text-align: center;
+	text-shadow: 15px 239px #999999;
+	border-bottom: 5px solid #00FF99;
+	line-height: 75px;
+}
